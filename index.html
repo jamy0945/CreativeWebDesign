@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery.scrollfade.js"></script>
+</head>
+
+<body>
+    <section class="initial" id="home">
+        <div class="bg-overlay"></div>
+        <header>
+            <div class="logo">
+                <a href="#home"><img src="logo.png" alt=""></a>
+            </div>
+            <div class="navburger" onclick="shownav()">
+                <img src="burger.jpg" alt="">
+            </div>
+            <div class="nav">
+                <ul class="SHOWTHIS">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="initial-content">
+            <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-mdb-interval="10000">
+                        <h2>Philippines Numba One</h2>
+                        <h5>Ok Ok Ok Ok Ok</h5>
+                        <p>Some Description Here </p>
+                    </div>
+                    <div class="carousel-item" data-mdb-interval="2000">
+                        <h2>Philippines Numba Two</h2>
+                        <h5>Not yet Finished</h5>
+                        <p>Some Description Here</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>Philippines Numba Three</h2>
+                        <h5>Hurray! Hurray! Hurray!</h5>
+                        <p>Some Description Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="block-offset-space" id="gallery"></div>
+    <section class="gallery">
+        <div class="gallery-main fade-in">
+            <h2 class="gallery-header">
+                Where to go?
+            </h2>
+            <div class="gallery-images">
+                <div class="gallery-img">
+                    <a href="boracay.html">
+                        <div class="gallery-img-overlay">
+                            <div class="gallery-img-content">
+                                <h3>BORACAY</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <img src="images/boracay.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <a href="ilocos.html">
+                        <div class="gallery-img-overlay">
+                            <div class="gallery-img-content">
+                                <h3>ILOCOS</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <img src="images/ilocos.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <a href="iloilo.html">
+                        <div class="gallery-img-overlay">
+                            <div class="gallery-img-content">
+                                <h3>ILOILO</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <img src="images/iloilo.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <a href="davao.html">
+                        <div class="gallery-img-overlay">
+                            <div class="gallery-img-content">
+                                <h3>DAVAO</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <img src="images/davao.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <a href="tagaytay.html">
+                        <div class="gallery-img-overlay">
+                            <div class="gallery-img-content">
+                                <h3>TAGAYTAY</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <img src="images/tagaytay.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <a href="la-union.html">
+                        <div class="gallery-img-overlay">
+                            <div class="gallery-img-content">
+                                <h3>LA UNION</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <img src="images/la-union.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="block-offset-space" id="about"></div>
+    <section class="about">
+        <div class="about-1">
+            <div class="section-about-1">
+                <div class="bg">
+
+                </div>
+                <div class="content fade-in">
+                    <h2>About Us</h2>
+                    <h5>Read between the lines</h5>
+                    <p>
+                        The Philippines,[e] officially the Republic of the Philippines,[f] is an archipelagic country in
+                        Southeast Asia. In the western Pacific Ocean, it consists of 7,641 islands, with a total area of
+                        300,000 square kilometers,[17] which are broadly categorized in three main geographical
+                        divisions from north to south: Luzon, Visayas, and Mindanao. The Philippines is bounded by the
+                        South China Sea to the west, the Philippine Sea to the east, and the Celebes Sea to the south.
+                        It shares maritime borders with Taiwan to the north, Japan to the northeast, Palau to the east
+                        and southeast, Indonesia to the south, Malaysia to the southwest, Vietnam to the west, and China
+                        to the northwest. It is the world's twelfth-most-populous country, with diverse ethnicities and
+                        cultures. Manila is the country's capital, and its most populated city is Quezon City. Both are
+                        within Metro Manila.
+                    </p>
+                    <button class="button">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="about-2">
+            <div class="section-about-2">
+                <div class="bg">
+
+                </div>
+                <div class="content fade-in">
+                    <h2>What's New?</h2>
+                    <h5>Read between the lines</h5>
+                    <p>
+                        The Philippines is an emerging market and a newly industrialized country, whose economy is
+                        transitioning from being agricultural to service- and manufacturing-centered. It is a founding
+                        member of the United Nations, the World Trade Organization, ASEAN, the Asia-Pacific Economic
+                        Cooperation forum, and the East Asia Summit; it is a member of the Non-Aligned Movement and a
+                        major non-NATO ally of the United States. Its location as an island country on the Pacific Ring
+                        of Fire and close to the equator makes it prone to earthquakes and typhoons. The Philippines has
+                        a variety of natural resources and a globally-significant level of biodiversity.
+                    </p>
+                    <p>
+                        The volunteer Armed Forces of the Philippines (AFP) consist of three branches: the Philippine
+                        Air Force, the Philippine Army, and the Philippine Navy.[339][340] Civilian security is handled
+                        by the Philippine National Police under the Department of the Interior and Local
+                        Government.[341] The AFP had a total manpower of around 280,000 as of 2022, of which 130,000
+                        were active military personnel, 100,000 were reserves, and 50,000 were paramilitaries.
+                    </p>
+                    <button class="dark-button">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="block-offset-space" id="contacts"></div>
+    <section class="contacts">
+        <div class="space"></div>
+        <div class="contact-form fade-in">
+            <h2>Message Us</h2>
+            <form action="">
+                <label for="">First Name</label>
+                <input class="input-text text-field" type="text" name="" id="">
+                <label for="">Email</label>
+                <input class="input-text text-field" type="email" name="" id="">
+                <label for="">Message</label>
+                <textarea class="input-text text-area" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="button" value="SEND MESSAGE">
+            </form>
+        </div>
+        <div class="space"></div>
+    </section>
+    <div class="block-offset-space" id="gallery"></div>
+    <footer>
+        <div class="upper">
+            <div class="socials">
+                <div class="footer-icons">
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fa fa-linkedin fa-5x"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram fa-5x"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-youtube fa-5x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contacts-details">
+                <ul>
+                    <li>Contact Number: <span>09999999999</span></li>
+                    <li>Email Address: <span>jamy0945@gmail.com</span></li>
+                    <li>Telephone Number: <span>999-9999</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="footer-cr">
+
+                <p><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; Jay Lord Lubin</p>
+            </div>
+        </div>
+
+    </footer>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+        <script src="bg-onepage.js"></script>
+
+
+</body>
+
+</html>
